@@ -1,6 +1,6 @@
 # Nolanzy
 
-This is a simple smart contact platform to purchase products using ETH.
+This is a simple smart contact platform to purchase products using ETH. You can set it up and modify.
 
 ## Technology Stack & Tools
 
