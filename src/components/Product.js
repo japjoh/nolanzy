@@ -66,7 +66,6 @@ const Product = ({ item, provider, account, nolanzy, togglePop }) => {
 
         <div className="product__order">
           <h1>{ethers.utils.formatUnits(item.cost.toString(), 'ether')} ETH</h1>
-
           <p>
             FREE delivery <br />
             <strong>
