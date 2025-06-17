@@ -25,7 +25,7 @@ const Product = ({ item, provider, account, nolanzy, togglePop }) => {
   const buyHandler = async () => {
     const signer = await provider.getSigner()
 
-    // Buy item...
+    // Buy item....
     let transaction = await nolanzy.connect(signer).buy(item.id, { value: item.cost })
     await transaction.wait()
 

@@ -12,6 +12,7 @@ import Nolanzy from './abis/Nolanzy.json'
 // Config
 import config from './config.json'
 
+
 function App() {
   const [provider, setProvider] = useState(null)
   const [nolanzy, setDappazon] = useState(null)
