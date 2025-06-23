@@ -10,6 +10,7 @@ contract Nolanzy {
         string category;
         string image;
         uint256 cost;
+        string description;
         uint256 rating;
         uint256 stock;
     }
@@ -41,6 +42,7 @@ contract Nolanzy {
         string memory _category,
         string memory _image,
         uint256 _cost,
+        string memory _description,
         uint256 _rating,
         uint256 _stock
     ) public onlyOwner {
@@ -51,6 +53,7 @@ contract Nolanzy {
             _category,
             _image,
             _cost,
+            _description,
             _rating,
             _stock
         );

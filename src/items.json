@@ -2,10 +2,11 @@
   "items": [
     {
       "id": 1,
-      "name": "Camera",
+      "name": "Earphones",
       "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
-      "price": "1",
+      "image": "https://orange-broad-mongoose-377.mypinata.cloud/ipfs/bafybeih3x2ldsz7pu4pccgh2gqzu7u7zdl2mrisij34cd3ecnzlldn76mu?filename=Earphone.png",
+      "price": "0.025",
+      "description": "High-quality earphones with noise cancellation.",
       "rating": 4,
       "stock": 10
     },
@@ -15,6 +16,7 @@
       "category": "electronics",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/drone.jpg",
       "price": "2",
+      "description": "Advanced drone with HD camera and long battery life.",
       "rating": 5,
       "stock": 6
     },
@@ -22,17 +24,19 @@
       "id": 3,
       "name": "Headset",
       "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/headset.jpg",
-      "price": "0.25",
+      "image": "https://orange-broad-mongoose-377.mypinata.cloud/ipfs/bafybeidgw6haku7d4kdmfkxclle5dhtgf7iw7yitf2asr3fdmsnjpt5tcu?filename=headphones.png",
+      "price": "0.4",
+      "description": "Comfortable headset with high-fidelity sound.",
       "rating": 2,
       "stock": 24
     },
     {
       "id": 4,
-      "name": "Shoes",
+      "name": "Shirt",
       "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg",
+      "image": "https://bafybeihe3nclt4fp5qjas6nbrbahvmsnytahpvmdiuobjq6cg3q3ubfzbm.ipfs.dweb.link?filename=nolanzy_shirt.png",
       "price": "0.25",
+      "description": "Stylish shirt made from 100% cotton.",
       "rating": 5,
       "stock": 3
     },
@@ -40,8 +44,9 @@
       "id": 5,
       "name": "Sunglasses",
       "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/sunglasses.jpg",
-      "price": "0.10",
+      "image": "https://orange-broad-mongoose-377.mypinata.cloud/ipfs/bafybeictzxxfh3xfnqfzgqiloonmxdmif2iqlvpswfzikdfc2e7iejlhvi?filename=Glasses.png",
+      "price": "0.40",
+      "description": "Trendy sunglasses with UV protection.",
       "rating": 4,
       "stock": 12
     },
@@ -49,8 +54,9 @@
       "id": 6,
       "name": "Watch",
       "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/watch.jpg",
-      "price": "1.25",
+      "image": "https://orange-broad-mongoose-377.mypinata.cloud/ipfs/bafybeihdlrxkndeij5ebni6vexvn332luh3kpzbewjz2cuvxml2jf3v7o4?filename=watch.png",
+      "price": "2",
+      "description": "Elegant watch with stainless steel band.",
       "rating": 4,
       "stock": 0
     },
@@ -60,6 +66,7 @@
       "category": "toys",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/cube.jpg",
       "price": "0.05",
+      "description": "Challenging puzzle cube for all ages.",
       "rating": 4,
       "stock": 15
     },
@@ -69,6 +76,7 @@
       "category": "toys",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/train.jpg",
       "price": "0.20",
+      "description": "Interactive train set with multiple tracks.",
       "rating": 4,
       "stock": 0
     },
@@ -78,6 +86,7 @@
       "category": "toys",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/robots.jpg",
       "price": "0.15",
+      "description": "Build your own robot set with various components.",
       "rating": 3,
       "stock": 12
     }

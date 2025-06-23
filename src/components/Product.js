@@ -10,6 +10,8 @@ const Product = ({ item, provider, account, nolanzy, togglePop }) => {
   const [order, setOrder] = useState(null)
   const [hasBought, setHasBought] = useState(false)
 
+  console.log("Type of item.description:", typeof item.description);
+
   const fetchDetails = async () => {
     const events = await nolanzy.queryFilter("Buy")
     const orders = events.filter(

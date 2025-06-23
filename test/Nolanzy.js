@@ -10,6 +10,7 @@ const NAME = "Shoes"
 const CATEGORY = "Clothing"
 const IMAGE = "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg"
 const COST = tokens(1)
+const DESCRIPTION = "A pair of stylish shoes perfect for any occasion."
 const RATING = 4
 const STOCK = 5
 
@@ -37,7 +38,7 @@ describe("Nolanzy", () => {
 
     beforeEach(async () => {
       // List a item
-      transaction = await nolanzy.connect(deployer).list(ID, NAME, CATEGORY, IMAGE, COST, RATING, STOCK)
+      transaction = await nolanzy.connect(deployer).list(ID, NAME, CATEGORY, IMAGE, COST, DESCRIPTION, RATING, STOCK)
       await transaction.wait()
     })
 
@@ -63,7 +64,7 @@ describe("Nolanzy", () => {
 
     beforeEach(async () => {
       // List a item
-      transaction = await nolanzy.connect(deployer).list(ID, NAME, CATEGORY, IMAGE, COST, RATING, STOCK)
+      transaction = await nolanzy.connect(deployer).list(ID, NAME, CATEGORY, IMAGE, COST, DESCRIPTION, RATING, STOCK)
       await transaction.wait()
 
       // Buy a item
@@ -99,7 +100,7 @@ describe("Nolanzy", () => {
 
     beforeEach(async () => {
       // List a item
-      let transaction = await nolanzy.connect(deployer).list(ID, NAME, CATEGORY, IMAGE, COST, RATING, STOCK)
+      let transaction = await nolanzy.connect(deployer).list(ID, NAME, CATEGORY, IMAGE, COST, DESCRIPTION, RATING, STOCK)
       await transaction.wait()
 
       // Buy a item

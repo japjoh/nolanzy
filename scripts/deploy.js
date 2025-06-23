@@ -30,6 +30,7 @@ async function main() {
       items[i].category,
       items[i].image,
       tokens(items[i].price),
+      items[i].description,
       items[i].rating,
       items[i].stock,
     )
