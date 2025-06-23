@@ -22,7 +22,7 @@ async function main() {
 
   console.log(`Deployed Nolanzy Contract at: ${nolanzy.address}\n`)
 
-  // Listing items...
+  // Listing items....
   for (let i = 0; i < items.length; i++) {
     const transaction = await nolanzy.connect(deployer).list(
       items[i].id,
