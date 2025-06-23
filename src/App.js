@@ -15,7 +15,7 @@ import config from './config.json'
 
 function App() {
   const [provider, setProvider] = useState(null)
-  const [nolanzy, setDappazon] = useState(null)
+  const [nolanzy, setNolanzy] = useState(null)
 
   const [account, setAccount] = useState(null)
 
@@ -37,7 +37,7 @@ function App() {
     const network = await provider.getNetwork()
 
     const nolanzy = new ethers.Contract(config[network.chainId].nolanzy.address, Nolanzy, provider)
-    setDappazon(nolanzy)
+    setNolanzy(nolanzy)
 
     const items = []
 
